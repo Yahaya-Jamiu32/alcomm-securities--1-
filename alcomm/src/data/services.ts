@@ -58,7 +58,7 @@ export const services: Service[] = [
       "Control from your phone",
       "Solutions tailored to your property",
     ],
-    gallery: [{ src: "/images/services/access-control.jpg", alt: "Biometric access control keypad with fingerprint reader", fit: "cover" }],
+    gallery: [{ src: "/images/services/access-control.jpg", alt: "Fingerprint and keypad access control on a glass door", fit: "cover" }],
   },
   {
     slug: "fire-alarm-systems",
@@ -67,14 +67,17 @@ export const services: Service[] = [
     short: "Smoke detectors and manual call points to help protect people and property.",
     description:
       "We supply and install fire alarm equipment so that a developing fire can be detected and raised early in homes and commercial buildings.",
-    image: { src: "/images/services/fire-call-point.jpg", alt: "Red manual fire alarm call point", fit: "contain" },
+    image: { src: "/images/services/fire-alarm-panel.jpg", alt: "Fire alarm control panel with smoke detector, sounder and manual call point", fit: "cover" },
     features: [
       "Smoke detectors",
       "Manual call points",
       "Sounders and control panel connection",
       "Installation planned around your building layout",
     ],
-    gallery: [{ src: "/images/services/smoke-detector.jpg", alt: "White ceiling smoke detector", fit: "contain" }],
+    gallery: [
+      { src: "/images/services/fire-call-point.jpg", alt: "Red manual fire alarm call point", fit: "contain" },
+      { src: "/images/services/smoke-detector.jpg", alt: "White ceiling smoke detector", fit: "contain" },
+    ],
   },
   {
     slug: "dstv-installation",
@@ -111,6 +114,7 @@ export const services: Service[] = [
     icon: Phone,
     title: "Telephone Intercom Systems",
     short: "Internal telephone intercoms linking rooms, offices and gates.",
+    image: { src: "/images/services/telephone-intercom.jpg", alt: "Wall-mounted telephone intercom handset beside a smart door lock", fit: "cover" },
     description:
       "Keep your property connected with telephone intercom systems that let people call between rooms, offices, reception and entrances at the press of a button.",
     features: [
@@ -127,7 +131,7 @@ export const services: Service[] = [
     short: "Complete solar power: panels, inverter, batteries and wiring, installed as one system.",
     description:
       "We design and install complete solar systems for homes and businesses: the panels, the inverter, battery storage and all the mounting and wiring, sized around your power needs.",
-    image: { src: "/images/services/solar-roof.jpg", alt: "Solar panels installed on a tiled house roof", fit: "cover" },
+    image: { src: "/images/services/solar-roof.jpg", alt: "House with solar panels on the roof and an inverter mounted on the wall", fit: "cover" },
     includes: [
       { icon: Sun, title: "Solar Panels", text: "Roof or ground mounted panels sized to your needs." },
       { icon: PlugZap, title: "Inverter", text: "Inverter selection and installation to run your home or business loads." },
@@ -149,7 +153,7 @@ export const services: Service[] = [
     short: "Routers, networking and Wi-Fi coverage for home and business.",
     description:
       "Get connected with correctly installed routers and networking equipment, set up to give you stable coverage where you need it.",
-    image: { src: "/images/services/internet-router.jpg", alt: "Wi-Fi router with four antennas on a stand", fit: "cover" },
+    image: { src: "/images/services/internet-router.jpg", alt: "Wi-Fi routers and network switch with patch cables in a rack", fit: "cover" },
     features: [
       "Router and modem installation",
       "Wi-Fi coverage planning",
@@ -172,7 +176,7 @@ export const services: Service[] = [
       "Systems scaled for homes and businesses",
     ],
     gallery: [
-      { src: "/images/services/access-control.jpg", alt: "Fingerprint access control at a glass door", fit: "cover" },
+      { src: "/images/services/access-control.jpg", alt: "Fingerprint and keypad access control on a glass door", fit: "cover" },
       { src: "/images/services/cyber-security.jpg", alt: "Abstract digital security padlock network", fit: "cover" },
     ],
   },
